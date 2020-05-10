@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello Uganda!"/>
+    <nav class="border-bottom">
+      <NavBar/>
+    </nav>
+    <h1>Hello Uganda!</h1>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavBar
   }
 }
 </script>
@@ -21,8 +24,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 100%;
 
 }
 </style>
