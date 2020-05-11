@@ -1,21 +1,30 @@
 <template>
   <div id="app">
     <nav class="border-bottom">
-      <NavBar/>
+      <NavBar />
     </nav>
-    <h1>Hello Uganda!</h1>
+    <main class="row main">
+      <section class="col-8 p-0">
+        <trendfeeds></trendfeeds>
+      </section>
+      <section class="col p-0 mt-5">
+        <h1>Hello Uganda!</h1>
+      </section>
+    </main>
   </div>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue'
+import NavBar from "./components/NavBar.vue";
+import TrendFeeds from "./components/TrendFeeds";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    NavBar
+    NavBar,
+    trendfeeds: TrendFeeds
   }
-}
+};
 </script>
 
 <style>
@@ -25,6 +34,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   width: 100%;
-
+}
+.main {
+  width: 100%;
+  max-width: 67%;
+  margin: 0 auto;
+  position: relative;
 }
 </style>
