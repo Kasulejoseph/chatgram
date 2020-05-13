@@ -6,6 +6,9 @@
     <main class="row main">
       <section class="col-8 p-0">
         <trendfeeds></trendfeeds>
+        <div class="mt-5">
+          <newfeeds></newfeeds>
+        </div>
       </section>
       <section class="col p-0 mt-5">
         <h1>Hello Uganda!</h1>
@@ -17,12 +20,14 @@
 <script>
 import NavBar from "./components/NavBar.vue";
 import TrendFeeds from "./components/TrendFeeds";
+import NewFeeds from "./components/NewFeeds"
 
 export default {
   name: "App",
   components: {
     NavBar,
-    trendfeeds: TrendFeeds
+    trendfeeds: TrendFeeds,
+    newfeeds: NewFeeds
   }
 };
 </script>
@@ -37,7 +42,7 @@ export default {
 }
 .main {
   width: 100%;
-  max-width: 67%;
+  max-width: 72%;
   margin: 0 auto;
   position: relative;
 }
