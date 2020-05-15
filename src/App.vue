@@ -20,14 +20,14 @@
 <script>
 import NavBar from "./components/NavBar.vue";
 import TrendFeeds from "./components/TrendFeeds";
-import NewFeeds from "./components/NewFeeds"
+import NewFeedsView from "./views/NewFeedsView"
 
 export default {
   name: "App",
   components: {
     NavBar,
     trendfeeds: TrendFeeds,
-    newfeeds: NewFeeds
+    newfeeds: NewFeedsView
   }
 };
 </script>
