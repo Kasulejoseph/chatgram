@@ -3,7 +3,9 @@
     <div class="card text-left">
       <div class="card-header">
         <div class="row">
-          <span v-html="usernameIcon"></span>
+          <span class="icon-cover" style="width: 36px; height: 36px; border-radius: 30px; border: 1px solid rgb(218,45,122);">
+            <img class="icon-image" :src="usernameIcon" alt="" style="width: 30px; height: 30px; border-radius: 30px;">
+          </span>
           <span class="col mt-1">
             {{ username }}
           </span>
@@ -131,5 +133,23 @@ a {
   color: rgba(var(--d69, 0, 149, 246), 1);
   background: 0 0;
   border: 0;
+}
+.icon-cover {
+    width: 36px;
+    height: 36px;
+    border-radius: 30px;
+    border: 1px solid rgb(218, 45, 122);
+    text-align: center;
+    justify-content: center;
+    display: -webkit-inline-box;
+    -webkit-box-align: center;
+}
+.icon-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  justify-content: center;
+  display: -webkit-box;
+  margin: auto;
 }
 </style>
