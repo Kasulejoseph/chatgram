@@ -10,7 +10,8 @@
           <newfeeds></newfeeds>
         </div>
       </section>
-      <section class="col p-0 mt-5">
+      <section class="col ml-4 p-0 mt-5">
+        <Suggestions/>
         <h1>Hello Uganda!</h1>
       </section>
     </main>
@@ -21,11 +22,13 @@
 import NavBar from "./components/NavBar.vue";
 import TrendFeeds from "./components/TrendFeeds";
 import NewFeedsView from "./views/NewFeedsView"
+import Suggestions from './components/Suggestions'
 
 export default {
   name: "App",
   components: {
     NavBar,
+    Suggestions,
     trendfeeds: TrendFeeds,
     newfeeds: NewFeedsView
   }
