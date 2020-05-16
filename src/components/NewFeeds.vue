@@ -3,8 +3,8 @@
     <div class="card text-left">
       <div class="card-header">
         <div class="row">
-          <span class="icon-cover" style="width: 36px; height: 36px; border-radius: 30px; border: 1px solid rgb(218,45,122);">
-            <img class="icon-image" :src="usernameIcon" alt="" style="width: 30px; height: 30px; border-radius: 30px;">
+          <span class="icon-cover">
+            <img class="icon-image" :src="usernameIcon" alt="">
           </span>
           <span class="col mt-1">
             {{ username }}
