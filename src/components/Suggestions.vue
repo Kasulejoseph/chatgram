@@ -2,7 +2,7 @@
   <section>
     <div class="row mt-3">
       <div class="col-3 p-0">
-        <img src="https://instagram.fnbo1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/62004521_592565644563810_2186037920148750336_n.jpg?_nc_ht=instagram.fnbo1-1.fna.fbcdn.net&_nc_ohc=Be4jjHjUpHsAX8Nkqx0&oh=5ef643e70f51238e7e7c19c51fee4d31&oe=5EE68EB1" style="width: 56px; height: 56px; border-radius: 50px;" alt="">
+        <img src="https://instagram.fnbo1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/113725555_668836093702661_6353173893857121562_n.jpg?_nc_ht=instagram.fnbo1-1.fna.fbcdn.net&_nc_ohc=d40obwK0oZMAX_zmcCx&tp=1&oh=76d15b8b08a62f424c0b3d7f7b99b711&oe=60140714" style="width: 56px; height: 56px; border-radius: 50px;" alt="">
       </div>
       <div class="col-4 p-0 mt-2">
         <a href="http://">joseph_kasule</a>
@@ -11,7 +11,17 @@
       </div>
     </div>
   </section>
-  <section></section>
+  <section>
+    <div class="row mt-3">
+    <div class="col-6 p-0">
+      <span>Suggestions</span>
+    </div>
+    <div class="col-4 p-0 ml-2">
+      <span>See All</span>
+    </div>
+      
+    </div>
+  </section>
 </template>
 
 <script>

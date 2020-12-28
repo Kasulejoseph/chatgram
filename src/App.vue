@@ -12,7 +12,6 @@
       </section>
       <section class="col ml-4 p-0 mt-5">
         <Suggestions/>
-        <h1>Hello Uganda!</h1>
       </section>
     </main>
   </div>
